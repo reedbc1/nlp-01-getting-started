@@ -65,6 +65,14 @@ And a new file named `project.log` will appear in the project folder.
 Once you see it, you're 90% of the way there.
 After that, you'll just make the project yours and get started exploring.
 
+## Changes
+
+The following changes were made to customize the project.
+- Two new files were created: src/nlp/web_words_reed.py and notebooks/web_words_reed.ipynb
+- In both files, the url for webscraping was changed to https://en.wikipedia.org/wiki/Special:Random. This
+  url links to a random wikipedia page.
+- Added `final_url: str = response.url` to show the url that was generated and used in the request.
+
 ## Command Reference
 
 The commands below are used in the workflow guide above.
